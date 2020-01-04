@@ -1,4 +1,3 @@
-
 build:
 	cd Resume/ && pdflatex Denis_Evsyukov.tex
 
