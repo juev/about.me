@@ -14,6 +14,7 @@
 * Java Programming: Object-Oriented Design of Data Structures Specialisation: [Q43UK3TYBDBT](https://www.coursera.org/account/accomplishments/specialization/Q43UK3TYBDBT)
 * Master Object Oriented Design in Java \- Homework + Solutions: [UC-94P2RWQ1](https://www.udemy.com/certificate/UC-94P2RWQ1/)
 * Learn Spring Framework Practically \- Hands On Recipes:[UC-WQZIGC8O](https://www.udemy.com/certificate/UC-WQZIGC8O/)
+* Введение в программирование (C++): [stepik.org/cert/273597](https://stepik.org/cert/273597)
 
 # Projects
 
