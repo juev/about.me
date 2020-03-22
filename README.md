@@ -20,6 +20,7 @@
 
 * [juev/juev.org](https://github.com/juev/juev.org) -- sources from my site
 * [juev/prometheus_oracle](https://github.com/juev/prometheus_oracle) -- prometheus oracle database exporter
+* [juev/ok](https://github.com/juev/ok) -- .ok folder profiles
 * [juev/t](https://github.com/juev/t) -- a command-line todo list manager for people that want to finish tasks, not organize them
 * [juev/vim-sensible](https://github.com/juev/vim-sensible) -- fork of tpope/sensible.vim: my own defaults
 * [juev/vim-hugo](https://github.com/juev/vim-hugo) -- vim-plugin for creating new blog-posts on Hugo
