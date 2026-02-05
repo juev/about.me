@@ -1,0 +1,220 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[11pt, a4paper]{awesome-cv-fa5}
+
+\geometry{left=1.35cm, top=.8cm, right=1.35cm, bottom=1.8cm, footskip=.5cm}
+
+\colorlet{awesome}{awesome-red}
+\setbool{acvSectionColorHighlight}{true}
+
+\hfuzz=2.5pt
+\hbadness=10000
+\renewcommand{\acvHeaderSocialSep}{\,\textbar\,}
+
+\name{Денис}{Евсюков}
+\position{Backend-разработчик{\enskip\cdotp\enskip}Go инженер}
+\address{Москва, Россия}
+
+\mobile{+7 (926) 622-67-27}
+\email{denis@evsyukov.org}
+\homepage{denis.evsyukov.org}
+\github{juev}
+
+\begin{document}
+
+\makecvheader[C]
+
+\makecvfooter
+  {\today}
+  {Денис Евсюков~~~·~~~Резюме}
+  {\thepage}
+
+\cvsection{О себе}
+
+\begin{cvparagraph}
+Backend-разработчик с 10+ лет опыта в IT и 5+ лет разработки на Go. Создавал высоконагруженные системы в VK, Ozon и Тинькофф. Глубокий опыт работы с Kubernetes, микросервисной архитектурой и real-time коммуникациями. Опыт построения масштабируемых распределённых систем, реализации message-driven архитектур и работы с cloud-native технологиями.
+\end{cvparagraph}
+
+\cvsection{Опыт работы}
+
+\begin{cventries}
+
+  \cventry
+    {Golang-разработчик}
+    {VK}
+    {Москва, Россия}
+    {Окт. 2025 -- н.в.}
+    {
+      \begin{cvitems}
+        \item {Разработка backend для мультиплеерных мини-игр в реальном времени}
+        \item {Реализация WebSocket-коммуникации с низколатентной синхронизацией состояния}
+        \item {Проектирование масштабируемой архитектуры для многомиллионной аудитории VK}
+        \item {Оптимизация управления игровыми сессиями и подбора игроков}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Golang-разработчик}
+    {Flant}
+    {Москва, Россия}
+    {Июн. 2024 -- Окт. 2025}
+    {
+      \begin{cvitems}
+        \item {Разработка модулей и хуков для Kubernetes-платформы Deckhouse}
+        \item {Создание Kubernetes-операторов и кастомных интеграций}
+        \item {Активная работа с Kubernetes API, CRDs и контроллерами}
+        \item {Реализация инфраструктурной автоматизации для enterprise-клиентов}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Golang-разработчик}
+    {Самокат (Мегамаркет)}
+    {Москва, Россия}
+    {Сен. 2023 -- Июн. 2024}
+    {
+      \begin{cvitems}
+        \item {Разработка backend-сервисов для витрины Мегамаркета}
+        \item {Создание RESTful API для каталога товаров и системы заказов}
+        \item {Реализация интеграций с внешними логистическими и платёжными провайдерами}
+        \item {Оптимизация запросов к базе данных для высоконагруженного e-commerce}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Golang-разработчик}
+    {Ozon}
+    {Москва, Россия}
+    {Ноя. 2021 -- Сен. 2023}
+    {
+      \begin{cvitems}
+        \item {Разработка высоконагруженных сервисов уведомлений (Push/SMS/Email)}
+        \item {Реализация асинхронной обработки сообщений на базе Kafka}
+        \item {Масштабирование системы для обработки миллионов уведомлений ежедневно}
+        \item {Построение мониторинга и алертинга для критичных коммуникационных сервисов}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Senior Engineer / DevOps}
+    {Тинькофф}
+    {Москва, Россия}
+    {Сен. 2017 -- Ноя. 2021}
+    {
+      \begin{cvitems}
+        \item {Подготовка Ansible playbook для администрирования серверов и сервисов}
+        \item {Разработка инструментов управления инфраструктурой на Go}
+        \item {Автоматизация разработки и тестирования с использованием Jenkins, Maven, Gradle}
+        \item {Администрирование кластеров RabbitMQ и Consul}
+        \item {Организация мониторинга с Zabbix, Prometheus и Grafana}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Senior Release Engineer}
+    {Netcracker}
+    {Москва, Россия}
+    {Янв. 2013 -- Окт. 2017}
+    {
+      \begin{cvitems}
+        \item {Автоматизация разработки и тестирования с использованием Jenkins, Maven, Gradle}
+        \item {Настройка мониторинга с Zabbix, Prometheus, Grafana}
+      \end{cvitems}
+    }
+
+\end{cventries}
+
+\cvsection{Технические навыки}
+
+\begin{cvskills}
+
+  \cvskill
+    {Языки программирования}
+    {Go (5+ лет), Python, Bash}
+
+  \cvskill
+    {Базы данных}
+    {PostgreSQL, MySQL, Redis, MongoDB}
+
+  \cvskill
+    {Брокеры сообщений}
+    {Kafka, RabbitMQ, NATS}
+
+  \cvskill
+    {Протоколы}
+    {gRPC, REST, WebSocket, GraphQL}
+
+  \cvskill
+    {Инфраструктура}
+    {Kubernetes, Docker, Helm, Werf, Terraform}
+
+  \cvskill
+    {CI/CD}
+    {GitHub Actions, Jenkins, GitLab CI}
+
+  \cvskill
+    {Мониторинг}
+    {Prometheus, Grafana, Zabbix, Jaeger}
+
+\end{cvskills}
+
+\cvsection{Open Source проекты}
+
+\begin{cvhonors}
+
+  \cvhonor
+    {gobrew}
+    {Менеджер версий Go, написанный на Go}
+    {411 звёзд}
+    {}
+
+  \cvhonor
+    {starred}
+    {Генератор Awesome List из GitHub звёзд}
+    {33 звезды}
+    {}
+
+  \cvhonor
+    {tor-relay-scanner-go}
+    {Сканер доступности Tor relay}
+    {21 звезда}
+    {}
+
+\end{cvhonors}
+
+\cvsection{Образование}
+
+\begin{cventries}
+
+  \cventry
+    {Бакалавр коммерции}
+    {Международный институт рынка (IMI)}
+    {Москва, Россия}
+    {2007 -- 2009}
+    {}
+
+  \cventry
+    {Бакалавр педагогики}
+    {Тольяттинский государственный университет}
+    {Тольятти, Россия}
+    {1997 -- 2002}
+    {}
+
+\end{cventries}
+
+\cvsection{Языки}
+
+\begin{cvskills}
+
+  \cvskill
+    {Русский}
+    {Родной язык}
+
+  \cvskill
+    {Английский}
+    {Pre-Intermediate (чтение технической документации)}
+
+\end{cvskills}
+
+\end{document}
