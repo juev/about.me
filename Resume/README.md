@@ -1,15 +1,15 @@
 # Resume
 
-This directory contains Denis Evsyukov's resume in two languages.
+This directory contains Denis Evsyukov's resume in two languages, built with [Typst](https://typst.app/) and the [brilliant-cv](https://github.com/yunanwg/brilliant-CV) template.
 
 ## Files
 
-- `Denis_Evsyukov_EN.tex` - English version source
+- `cv.typ` - Main Typst file
+- `metadata.toml` - Configuration (name, contacts, colors, language)
+- `modules_en/` - English content modules
+- `modules_ru/` - Russian content modules
 - `Denis_Evsyukov_EN.pdf` - English version PDF
-- `Denis_Evsyukov_RU.tex` - Russian version source
 - `Denis_Evsyukov_RU.pdf` - Russian version PDF
-- `awesome-cv-fa5.cls` - Modified Awesome-CV class with FontAwesome5 support
-- `awesome-cv.cls` - Original Awesome-CV class
 
 ## Building
 
@@ -28,15 +28,12 @@ Build Russian version only:
 make build-ru
 ```
 
-Clean temporary files:
+Clean generated PDFs:
 ```bash
 make clean
 ```
 
 ## Requirements
 
-- [Tectonic](https://tectonic-typesetting.github.io/) - A modern, self-contained TeX/LaTeX engine
-
-## Template
-
-Based on [Awesome-CV](https://github.com/posquit0/Awesome-CV) template with modifications for FontAwesome5 compatibility.
+- [Typst](https://typst.app/) >= 0.14.0
+- Fonts: Source Sans 3, Roboto (for header)

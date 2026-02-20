@@ -2,8 +2,8 @@
 
 ## Resume
 
-- EN: [PDF](Resume/Denis_Evsyukov_EN.pdf), [LaTeX](Resume/Denis_Evsyukov_EN.tex)
-- RU: [PDF](Resume/Denis_Evsyukov_RU.pdf), [LaTeX](Resume/Denis_Evsyukov_RU.tex)
+- EN: [PDF](Resume/Denis_Evsyukov_EN.pdf), [Source](Resume/cv.typ)
+- RU: [PDF](Resume/Denis_Evsyukov_RU.pdf), [Source](Resume/cv.typ)
 
 ## Online courses
 

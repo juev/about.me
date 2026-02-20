@@ -1,0 +1,52 @@
+language = "en"
+
+[layout]
+awesome_color = "#DC3522"
+before_section_skip = "1pt"
+before_entry_skip = "1pt"
+before_entry_description_skip = "1pt"
+paper_size = "a4"
+
+  [layout.fonts]
+  regular_fonts = ["Source Sans 3", "Linux Libertine", "Font Awesome 6 Brands", "Font Awesome 6 Free"]
+  header_font = "Roboto"
+
+  [layout.header]
+  header_align = "center"
+  display_profile_photo = false
+
+  [layout.entry]
+  display_entry_society_first = true
+  display_logo = false
+
+  [layout.footer]
+  display_page_counter = true
+  display_footer = true
+
+[inject]
+inject_ai_prompt = false
+inject_keywords = true
+injected_keywords_list = ["Go", "Kubernetes", "Microservices", "gRPC", "PostgreSQL", "Kafka", "Docker"]
+
+[personal]
+first_name = "Denis"
+last_name = "Evsyukov"
+
+  [personal.info]
+  phone = "+7 (926) 622-67-27"
+  email = "denis@evsyukov.org"
+  homepage = "denis.evsyukov.org"
+  github = "juev"
+  location = "Moscow, Russia"
+
+[lang.en]
+header_quote = "Backend Developer | Go Engineer"
+cv_footer = "Resume"
+
+[lang.ru]
+header_quote = "Backend-разработчик | Go инженер"
+cv_footer = "Резюме"
+
+[lang.non_latin]
+name = "Денис Евсюков"
+font = "Source Sans 3"

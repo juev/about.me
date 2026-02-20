@@ -1,12 +1,16 @@
-build:
-	cd Resume/ && tectonic Denis_Evsyukov_EN.tex
-	cd Resume/ && tectonic Denis_Evsyukov_RU.tex
+build: build-en build-ru
 
 build-en:
-	cd Resume/ && tectonic Denis_Evsyukov_EN.tex
+	typst compile Resume/cv.typ Resume/Denis_Evsyukov_EN.pdf
 
 build-ru:
-	cd Resume/ && tectonic Denis_Evsyukov_RU.tex
+	typst compile --input language=ru Resume/cv.typ Resume/Denis_Evsyukov_RU.pdf
 
 clean:
-	cd Resume/ && rm -f *.log *.aux *.out *.fdb_latexmk *.fls __latexindent_temp.tex
+	rm -f Resume/*.pdf
+
+deps:
+	brew install typst poppler
+
+fonts:
+	brew install --cask font-source-sans-3 font-roboto font-fontawesome
