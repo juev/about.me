@@ -2,4 +2,4 @@
 
 #cv-section("Summary")
 
-Backend Developer with 10+ years in IT and 5+ years of Go development. Built high-load systems at VK, Ozon, and Tinkoff. Strong background in Kubernetes, microservices architecture, and real-time communications. Experienced in building scalable distributed systems, implementing message-driven architectures, and working with cloud-native technologies.
+Backend Developer with 10+ years in IT and 5+ years of Go development. Built a real-time multiplayer backend at VK, Kubernetes platform modules at Flant, and a Kafka-based notification pipeline at Ozon. Author of nebula-mesh and hledger-lsp, regular contributor to gobrew.

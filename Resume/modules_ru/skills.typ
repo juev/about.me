@@ -36,3 +36,8 @@
   type: [Мониторинг],
   info: [Prometheus, Grafana, Zabbix, Jaeger],
 )
+
+#cv-skill(
+  type: [AI-инструменты],
+  info: [Claude Code, skills и hooks для агентов],
+)

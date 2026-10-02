@@ -26,7 +26,7 @@ paper_size = "a4"
 [inject]
 inject_ai_prompt = false
 inject_keywords = true
-injected_keywords_list = ["Go", "Kubernetes", "Microservices", "gRPC", "PostgreSQL", "Kafka", "Docker"]
+injected_keywords_list = ["Go", "Kubernetes", "Microservices", "gRPC", "PostgreSQL", "Kafka", "Docker", "WebSocket", "Redis"]
 
 [personal]
 first_name = "Denis"

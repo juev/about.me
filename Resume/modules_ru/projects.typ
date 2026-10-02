@@ -4,21 +4,28 @@
 
 #cv-honor(
   date: [],
-  title: [gobrew],
+  title: link("https://github.com/forgekeep/nebula-mesh")[nebula-mesh],
+  issuer: [Self-hosted control plane для mesh VPN Nebula (Go, SQLite, htmx)],
+  location: [Автор],
+)
+
+#cv-honor(
+  date: [],
+  title: link("https://github.com/juev/hledger-lsp")[hledger-lsp],
+  issuer: [Language server для журналов hledger, расширения для VS Code и Zed],
+  location: [Автор],
+)
+
+#cv-honor(
+  date: [],
+  title: link("https://github.com/kevincobain2000/gobrew")[gobrew],
   issuer: [Менеджер версий Go, написанный на Go],
-  location: [411 звёзд],
+  location: [Контрибьютор],
 )
 
 #cv-honor(
   date: [],
-  title: [starred],
-  issuer: [Генератор Awesome List из GitHub звёзд],
-  location: [33 звезды],
-)
-
-#cv-honor(
-  date: [],
-  title: [tor-relay-scanner-go],
+  title: link("https://github.com/juev/tor-relay-scanner-go")[tor-relay-scanner-go],
   issuer: [Сканер доступности Tor relay],
-  location: [21 звезда],
+  location: [Автор],
 )

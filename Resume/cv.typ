@@ -10,8 +10,14 @@
 
 #let import-modules(modules, lang: metadata.language) = {
   for module in modules {
-    include {
+    let body = include {
       "modules_" + lang + "/" + module + ".typ"
+    }
+    // Keep a section on one page; only the experience list may span pages.
+    if module == "professional" {
+      body
+    } else {
+      block(breakable: false, width: 100%, body)
     }
   }
 }
